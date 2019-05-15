@@ -1,0 +1,35 @@
+{
+  "name": "wjminions/omnipay-wechat-hk",
+  "type": "library",
+  "description": "Wechat Hk gateway for Omnipay payment processing library",
+  "keywords": [
+    "wechat-hk",
+    "gateway",
+    "cross-border",
+    "international",
+    "merchant",
+    "omnipay",
+    "pay",
+    "payment",
+    "purchase"
+  ],
+  "homepage": "https://github.com/wjminions/omnipay-wechat-hk",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "wjminions",
+        "homepage": "https://github.com/wjminions/omnipay-wechat-hk"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Omnipay\\WechatHk\\": "src/"
+    }
+  },
+  "require": {
+    "omnipay/common": "~2.5.1"
+  },
+  "require-dev": {
+    "omnipay/tests": "~2.0"
+  }
+}
